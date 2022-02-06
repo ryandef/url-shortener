@@ -1,0 +1,62 @@
+body {
+    background:#fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mtb {
+    margin-top: 200px;
+}
+
+.bg-blue {
+    background: #2d3748;
+    border-radius: 10px;
+}
+
+.text-blue {
+    color: #eee;
+}
+
+.form-control {
+    background: transparent;
+    border: transparent;
+    color: #fff;
+}
+
+.form-control:focus {
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.btn-transparent {
+    background: transparent;
+}
+
+body:before {
+    background: #1b212d;
+    width: 100%;
+    height: 342px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.short-url {
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #2d3748;
+    font-size: 24px;
+    max-width: 400px;
+    width: 100%;
+}
